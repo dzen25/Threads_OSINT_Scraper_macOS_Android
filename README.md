@@ -26,6 +26,7 @@
     * Узнайте IP телефона (Настройки Wi-Fi) и введите: `adb connect <IP_АДРЕС>:5555`.
     * Теперь кабель можно отключить.
 4.  **Stay Awake:** Чтобы экран не тух во время сбора данных:
+   
     ```bash
     adb shell settings put system screen_off_timeout 86400000
     ```
